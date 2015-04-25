@@ -81,4 +81,3 @@ class CfgNotifications
 {
 	#include "client\CfgNotifications.hpp"
 };
-

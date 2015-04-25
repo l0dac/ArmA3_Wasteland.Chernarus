@@ -1,5 +1,5 @@
 // ******************************************************************************************
-// * This project is licensed under the GNU Affero GPL v3. Copyright Â© 2014 A3Wasteland.com *
+// * This project is licensed under the GNU Affero GPL v3. Copyright © 2014 A3Wasteland.com *
 // ******************************************************************************************
 /*********************************************************#
 # @@ScriptName: storeConfig.sqf
@@ -1028,14 +1028,12 @@ tanksArray = compileFinal str
 
 helicoptersArray = compileFinal str
 [
-	["Ka-60 Grey", "rhs_ka60_grey", 7000, "vehicle"],
-	["Ka-60 Camo", "rhs_ka60_c", 7000, "vehicle"],
-	["UH-60M Woodland", "rhs_uh60m", 8000, "vehicle"],
-	["UH-60M Desert", "rhs_uh60m_d", 8000, "vehicle"],
-	["UH-60M MEV Woodland", "rhs_uh60m_mev", 8000, "vehicle"],
-	["UH-60M MEV Desert", "rhs_uh60m_mev_d", 8000, "vehicle"],	
-	["CH-47 Chinook Wood", "rhs_ch_47f", 9500, "vehicle"],
-	["CH-47 Chinook Desert", "rhs_ch_47f_light", 9500, "vehicle"],
+	["Ka-60 Camo", "rhs_ka60_c", 5000, "vehicle"],
+	["UH-60M Army 2010 Desert", "RHS_UH60M_d", 8000, "vehicle"],
+	["UH-60M Army 2014", "RHS_UH60M", 8000, "vehicle"],
+	["CH-47 Chinook Wood", "RHS_CH_47F", 9500, "vehicle"],
+	["UH1-Y Venom (USMC 2010) Wood", "RHS_UH1Y", 10000, "vehicle"],
+	["UH1-Y Venom (USMC 2010) Wood FFAR", "RHS_UH1Y_FFAR", 10000, "vehicle"],
 	["Mi-8MT VDV", "RHS_Mi8mt_vdv", 10000, "vehicle"],
 	["Mi-8MT VV", "RHS_Mi8mt_vv", 10000, "vehicle"],
 	["Mi-8MT Grey", "RHS_Mi8mt_vvs", 10000, "vehicle"],
@@ -1054,15 +1052,16 @@ helicoptersArray = compileFinal str
 	["Mi-24V VDV", "RHS_Mi24V_vdv", 80000, "vehicle"],
 	["Mi-24V Grey", "RHS_Mi24V_vvs", 80000, "vehicle"],
 	["Mi-24V Camo", "RHS_Mi24V_vvsc", 80000, "vehicle"],  
-	["AH-64D Apache Wood", "rhs_ah64d_wd", 85000, "vehicle"],
-	["AH-64D Apache Desert", "rhs_ah64d", 85000, "vehicle"],
-	["AH-1Z Super Cobra 2010 Multi Role", "rhs_ah1z_wd_10", 85000, "vehicle"],
-	["AH-1Z Super Cobra 2010 Ground Role", "rhs_ah1z_wd_gs_10", 85000, "vehicle"],
-	["AH-1Z Super Cobra 2010 Close Support", "rhs_ah1z_wd_cs_10", 85000, "vehicle"],
-	["AH-1Z Super Cobra 2014 Multi Role", "rhs_ah1z_wd", 85000, "vehicle"],
-	["AH-1Z Super Cobra 2014 Ground Role", "rhs_ah1z_wd_gs", 85000, "vehicle"],
-	["AH-1Z Super Cobra 2014 Close Support", "rhs_ah1z_wd_cs", 85000, "vehicle"]
-
+	["AH-64D Apache", "RHS_AH64D", 85000, "vehicle"],
+	["AH-64D Apache Air Support", "RHS_AH64D_AA", 85000, "vehicle"],
+	["AH-64D Apache Close Support", "RHS_AH64D_CS", 85000, "vehicle"],
+	["AH-64D Apache Ground Support", "RHS_AH64D_GS", 85000, "vehicle"],
+	["AH-1Z Super Cobra 2010 Multi Role", "RHS_AH1Z_wd_10", 85000, "vehicle"],
+	["AH-1Z Super Cobra 2010 Ground Role", "RHS_AH1Z__wd_GS_10", 85000, "vehicle"],
+	["AH-1Z Super Cobra 2010 Close Support", "RHS_AH1Z_wd_CS_10", 85000, "vehicle"],
+	["AH-1Z Super Cobra 2014 Multi Role", "RHS_AH1Z_wd", 85000, "vehicle"],
+	["AH-1Z Super Cobra 2014 Ground Role", "RHS_AH1Z_wd_GS", 85000, "vehicle"],
+	["AH-1Z Super Cobra 2014 Close Support", "RHS_AH1Z_wd_CS", 85000, "vehicle"]
 ];
 
 planesArray = compileFinal str
@@ -1070,7 +1069,7 @@ planesArray = compileFinal str
 	["C-130J Transport", "RHS_C130J", 5000, "vehicle"],
 	["Su-25SM Grey (Guns Only)", "RHS_Su25SM_vvs", 15000, "vehicle"],
 	["Su-25SM Camo (Guns Only)", "RHS_Su25SM_vvsc", 15000, "vehicle"],
-	["A-10A Thunderbolt II (Guns Only)", "rhs_a10", 20000, "vehicle"]
+	["A-10A Thunderbolt II (Guns Only)", "RHS_A10", 20000, "vehicle"]
 	
 ];
 
