@@ -58,6 +58,7 @@ if (_packetName == "BIS_fnc_MP_packet") then
 			"BIS_fnc_effectKilledAirDestruction",
 			"BIS_fnc_effectKilledAirDestructionStage2",
 			"BIS_fnc_effectKilledSecondaries",
+			"bis_fnc_objectVar",
 			"rhs_fnc_flashbang_effect"
 			//"JTS_FNC_SENT" // PM Compact by JTS
 		];

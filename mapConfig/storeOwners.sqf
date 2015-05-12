@@ -22,8 +22,8 @@ storeOwnerConfig = compileFinal str
 	["GunStore1", 3, 130, []],
 	["GunStore2", 0, 236, []],
 	["GunStore3", 2, 130, []],
-	["GunStore4", 99, 350, []],
-	["GunStore5", 99, 140, []],
+	["GunStore4", 99, 328, []],
+	["GunStore5", 99, 128, []],
 
 	// Buttons you can disable: "Land", "Armored", "Tanks", "Helicopters", "Boats", "Planes"
 	["VehStore1", 0, 75, ["Planes"]],
@@ -46,7 +46,7 @@ storeOwnerConfigAppearance = compileFinal str
 	["GunStore2", [["weapon", ""], ["uniform", "U_O_SpecopsUniform_blk"]]],
 	["GunStore3", [["weapon", ""], ["uniform", "U_I_CombatUniform_tshirt"]]],
 	["GunStore4", [["weapon", ""], ["uniform", "U_I_CombatUniform_tshirt"]]],
-	["GunStore5", [["weapon", "MMG_01_hex_F"], ["uniform", "U_B_FullGhillie_lsh"]]],
+	["GunStore5", [["weapon", ""], ["uniform", "U_B_FullGhillie_lsh"]]],
 
 	["VehStore1", [["weapon", ""], ["uniform", "U_B_SpecopsUniform_sgg"]]],
 	["VehStore2", [["weapon", ""], ["uniform", "U_B_SpecopsUniform_sgg"]]],

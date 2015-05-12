@@ -34,10 +34,12 @@ class Mission
 		"rhs_c_t72",
 		"rhs_c_sprut",
 		"rhs_c_trucks",
+		"rhsusf_c_m1a1",
 		"hlcweapons_ar15",
 		"hlcweapons_mp5",
 		"hlcweapons_m14",
 		"hlcweapons_aks",
+		"hlcweapons_g3",
 		"hlcweapons_m60e4",
 		"hlcweapons_aug"
 	};
@@ -62,7 +64,7 @@ class Mission
 	randomSeed=7312376;
 	class Intel
 	{
-		briefingName="TOParma.com A3Wasteland Chernarus v2 extDB";
+		briefingName="TOParma.com A3Wasteland Chernarus v2.1";
 		overviewText="TOP Wasteland Conquest Chernarus by TOPARMA.com - Core developed by A3Wasteland.com";
 		resistanceWest=0;
 		startWeather=0.25;
@@ -1982,7 +1984,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8104.5957,447.19928,7834.604};
+					position[]={8103.6519,447.16339,7834.2588};
 					azimut=848.95526;
 					id=157;
 					side="LOGIC";
@@ -2655,7 +2657,7 @@ class Mission
 		};
 		class Item26
 		{
-			position[]={1330.0565,334.79538,13441.268};
+			position[]={1328.3544,335.53784,13450.535};
 			name="heliSpawn_2";
 			type="Empty";
 			colorName="ColorGreen";
@@ -2822,7 +2824,7 @@ class Mission
 		};
 		class Item52
 		{
-			position[]={7984.1138,342.15042,7097.9189};
+			position[]={7985.5688,342.26416,7097.9189};
 			name="Mission_21";
 			type="Empty";
 		};

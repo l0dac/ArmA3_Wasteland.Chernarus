@@ -38,8 +38,11 @@
 	["<t color='#FF00FF'>Open magic parachute</t>", { [[], fn_openParachute] execFSM "call.fsm" }, [], 20, true, true, "", "vehicle player == player && (getPos player) select 2 > 2.5"],
 
 	["<t color='#00FF00'>Radar ON</t>", "client\actions\RadarDeploy.sqf", [], 6, false, false, "", "_trgt = cursorTarget; _trgt distance _this <= 4 && (_trgt getVariable ['isRadarVeh', false])"], 
-	["<t color='#FF0000'>Radar OFF</t>", "client\actions\RadarPack.sqf", [], 6, false, false, "", "_trgt = cursorTarget; _trgt distance _this <= 4 && (_trgt getVariable ['isRadarVeh', false])"]
-
+	["<t color='#FF0000'>Radar OFF</t>", "client\actions\RadarPack.sqf", [], 6, false, false, "", "_trgt = cursorTarget; _trgt distance _this <= 4 && (_trgt getVariable ['isRadarVeh', false])"],
+	
+	["<img image='client\icons\money.paa'/> Sell store crate", "client\systems\selling\sellStoreCrateItems.sqf", [], 1, false, false, "", "_trgt = cursorTarget; _trgt distance _this <= 4 && (_trgt getVariable ['A3W_storeSellBox', false])"]
+	
+	
 ];
 
 
