@@ -5,6 +5,12 @@
 //	@file Name: filterExecAttempt.sqf
 //	@file Author: AgentRev
 //	@file Created: 14/07/2013 13:10
+// Update: Motavar@judgement.net
+// Port: A3Wasteland 
+// Vehicle Radar 
+// Date: 4/5/15
+// 
+
 
 private "_packetName";
 _packetName = [_this, 0, "", [""]] call BIS_fnc_param;
@@ -35,6 +41,7 @@ if (_packetName == "BIS_fnc_MP_packet") then
 		[
 			"client\functions\defineServerRules.sqf",
 			"territory\client\updateTerritoryMarkers.sqf",
+			"server\functions\RadarMarkerUpdate.sqf",
 			"initPlayerServer.sqf"
 		];
 	}
@@ -50,8 +57,10 @@ if (_packetName == "BIS_fnc_MP_packet") then
 		[
 			"BIS_fnc_effectKilledAirDestruction",
 			"BIS_fnc_effectKilledAirDestructionStage2",
-			"BIS_fnc_effectKilledSecondaries"/*,
-			"JTS_FNC_SENT"*/ // PM Compact by JTS
+			"BIS_fnc_effectKilledSecondaries",
+			"bis_fnc_objectVar",
+			"rhs_fnc_flashbang_effect"
+			//"JTS_FNC_SENT" // PM Compact by JTS
 		];
 
 		if (!_whitelisted) then

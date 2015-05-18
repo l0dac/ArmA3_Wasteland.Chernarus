@@ -1,5 +1,5 @@
 // ******************************************************************************************
-// * This project is licensed under the GNU Affero GPL v3. Copyright Â© 2014 A3Wasteland.com *
+// * This project is licensed under the GNU Affero GPL v3. Copyright © 2014 A3Wasteland.com *
 // ******************************************************************************************
 //  @file Version: 1.1
 //  @file Name: serverVars.sqf
@@ -20,12 +20,13 @@ civilianVehicles =
 [
   "C_Quadbike_01_F",
   "rhs_tigr_vdv",
-  "rhs_tigr_vv",
-  "rhs_tigr_vmf",
-  "rhs_uaz_vmf",
-  "rhs_uaz_vdv",
-  "rhs_uaz_vv",
-  "rhs_uaz_msv"
+  "C_Offroad_01_F",
+  "rhsusf_m1025_w",
+"rhs_gaz66_msv",
+"rhs_uaz_vdv",
+"rhs_uaz_open_vdv",
+"RHS_Ural_Flat_VDV_01",
+"RHS_Ural_Open_VDV_01"
 ];
 
 //Light Military Vehicle List - Random Spawns
@@ -35,23 +36,16 @@ lightMilitaryVehicles =
   "O_Quadbike_01_F",
   "I_Quadbike_01_F",
   "I_G_Quadbike_01_F",
-//  "O_Truck_02_covered_F",
-//  "I_Truck_02_covered_F",
-//  "O_Truck_02_transport_F",
-//  "I_Truck_02_transport_F",
   "rhsusf_m1025_w_s_m2"
 ];
 
 //Medium Military Vehicle List - Random Spawns
 mediumMilitaryVehicles =
 [
-//  "I_Truck_02_Fuel_F",
-//  "O_Truck_02_Fuel_F",
-//  "I_Truck_02_medical_F",
-//  "O_Truck_02_medical_F",
-//  "B_MRAP_01_F",
-//  "O_MRAP_02_F",
-//  "I_MRAP_03_F"
+  "I_Truck_02_Fuel_F",
+  "O_Truck_02_Fuel_F",
+  "I_Truck_02_medical_F",
+  "O_Truck_02_medical_F",
   "rhsusf_m1025_w_s",
   "rhsusf_m998_w_s_4dr"
   
@@ -145,8 +139,11 @@ staticWeaponsList =
 //Object List - Random Helis.
 staticHeliList =
 [
-  "B_Heli_Light_01_F",
-  "rhs_ka60_c"
+//  "B_Heli_Light_01_F",
+  "RHS_UH60M_MEV2",
+  "rhs_ka60_c",
+  "RHS_UH1Y_UNARMED"
+
   // don't put cargo helicopters here, it doesn't make sense to find them in towns; they spawn in the CivHeli mission
 ];
 
@@ -169,7 +166,7 @@ vehicleWeapons =
   "rhs_weap_m4a1_grip2",
   "rhs_weap_m4a1_bipod",
   "rhs_weap_m4a1_grip",
-  "rhs_m4a1_m320",
+  "rhs_weap_M320",
   "rhs_weap_m16a4",
   "rhs_weap_m16a4_carryhandle",
   "rhs_weap_m249_pip",
@@ -188,7 +185,6 @@ vehicleWeapons =
   "hlc_rifle_FAL5061",
   "hlc_rifle_g3a3",
   "hlc_rifle_aug",
-  "rhs_weap_m249_pip",
   "hlc_rifle_l1a1slr",
   "hlc_rifle_hk53"
 ];
